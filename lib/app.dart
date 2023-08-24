@@ -12,9 +12,8 @@ class MyApp extends StatelessWidget {
       title: 'Albert Heijn Clone',
       theme: ThemeData(
           primarySwatch: Colors.blue,
-          splashColor: Colors.transparent,
-          highlightColor: Colors.transparent,
-          hoverColor: Colors.transparent),
+          hoverColor: Colors.transparent,
+          scaffoldBackgroundColor: Colors.white),
       home: const HomeScreen(),
     );
   }
