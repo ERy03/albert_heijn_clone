@@ -10,6 +10,35 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: const HomeAppBar(),
+      bottomNavigationBar: NavigationBar(
+        elevation: 20,
+        shadowColor: Colors.red,
+        backgroundColor: Colors.white,
+        surfaceTintColor: Colors.white,
+        indicatorColor: Colors.blue,
+        destinations: [
+          NavigationDestination(
+            icon: Icon(Icons.home_outlined),
+            label: 'Home'.hardcoded,
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.sell_outlined),
+            label: 'Bonus'.hardcoded,
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.restaurant_outlined),
+            label: 'Recipes'.hardcoded,
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.lunch_dining_outlined),
+            label: 'Products'.hardcoded,
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.shopping_basket_outlined),
+            label: 'My List'.hardcoded,
+          ),
+        ],
+      ),
       body: ListView(
         children: [
           Padding(
