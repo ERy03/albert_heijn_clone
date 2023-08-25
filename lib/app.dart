@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Albert Heijn Clone',
       theme: ThemeData(
+          useMaterial3: true,
           primarySwatch: Colors.blue,
           hoverColor: Colors.transparent,
           scaffoldBackgroundColor: Colors.white),
