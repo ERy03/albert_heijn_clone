@@ -11,11 +11,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: const HomeAppBar(),
       bottomNavigationBar: NavigationBar(
-        elevation: 20,
-        shadowColor: Colors.red,
-        backgroundColor: Colors.white,
-        surfaceTintColor: Colors.white,
-        indicatorColor: Colors.blue,
+        indicatorColor: const Color(0xff02ADE6),
         destinations: [
           NavigationDestination(
             icon: const Icon(Icons.home_outlined),
