@@ -1,4 +1,4 @@
-import 'package:albert_heijn_clone/screens/home.dart';
+import 'package:albert_heijn_clone/routes/go_router_routes.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       debugShowCheckedModeBanner: false,
       title: 'Albert Heijn Clone',
       theme: ThemeData(
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.blue,
           hoverColor: Colors.transparent,
           scaffoldBackgroundColor: Colors.white),
-      home: const HomeScreen(),
+      routerConfig: goRouter,
     );
   }
 }
