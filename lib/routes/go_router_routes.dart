@@ -1,3 +1,5 @@
+import 'package:albert_heijn_clone/screens/home.dart';
+import 'package:albert_heijn_clone/screens/scaffold_with_nested_navigation.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
@@ -19,7 +21,6 @@ final goRouter = GoRouter(
     // Home
     StatefulShellRoute.indexedStack(
       builder: (context, state, navigationShell) {
-        // TODO
         return ScaffoldWithNestedNavigation(navigationShell: navigationShell);
       },
       branches: [
@@ -28,10 +29,9 @@ final goRouter = GoRouter(
           routes: [
             GoRoute(
               path: '/home',
-              //TODO page builder
-              // pageBuilder: (context, state) => const (
-              //   child:
-              // ),
+              builder: (context, state) {
+                return const HomeScreen();
+              },
               routes: const [
                 //   GoRoute(
                 //     path: '',
@@ -47,10 +47,10 @@ final goRouter = GoRouter(
           routes: [
             GoRoute(
               path: '/bonus',
-              //TODO page builder
-              // pageBuilder: (context, state) => const (
-              //   child:
-              // ),
+              builder: (context, state) {
+                //TODO builder
+                return const HomeScreen();
+              },
               routes: const [
                 //   GoRoute(
                 //     path: '',
@@ -66,10 +66,10 @@ final goRouter = GoRouter(
           routes: [
             GoRoute(
               path: '/recipes',
-              //TODO page builder
-              // pageBuilder: (context, state) => const (
-              //   child:
-              // ),
+              builder: (context, state) {
+                //TODO builder
+                return const HomeScreen();
+              },
               routes: const [
                 //   GoRoute(
                 //     path: '',
@@ -85,10 +85,10 @@ final goRouter = GoRouter(
           routes: [
             GoRoute(
               path: '/products',
-              //TODO page builder
-              // pageBuilder: (context, state) => const (
-              //   child:
-              // ),
+              builder: (context, state) {
+                //TODO builder
+                return const HomeScreen();
+              },
               routes: const [
                 //   GoRoute(
                 //     path: '',
@@ -104,10 +104,10 @@ final goRouter = GoRouter(
           routes: [
             GoRoute(
               path: '/my_list',
-              //TODO page builder
-              // pageBuilder: (context, state) => const (
-              //   child:
-              // ),
+              builder: (context, state) {
+                //TODO builder
+                return const HomeScreen();
+              },
               routes: const [
                 //   GoRoute(
                 //     path: '',
