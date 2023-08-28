@@ -8,6 +8,7 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
     return AppBar(
       automaticallyImplyLeading: false,
       backgroundColor: Colors.white,
+      shadowColor: Colors.grey,
       elevation: 0,
       scrolledUnderElevation: 1,
       leading: AppBarIcon(
