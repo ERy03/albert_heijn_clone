@@ -1,3 +1,4 @@
+import 'package:albert_heijn_clone/localization/hardcoded.dart';
 import 'package:flutter/material.dart';
 
 class HomeThisWeekSection extends StatelessWidget {
@@ -5,9 +6,69 @@ class HomeThisWeekSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: 150,
-      color: Colors.red,
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          'This Week in Albert Heijn'.hardcoded,
+          style: const TextStyle(fontSize: 25),
+        ),
+        Container(
+          height: 150,
+          width: double.infinity,
+          child: ListView(
+            scrollDirection: Axis.horizontal,
+            children: [
+              Container(
+                width: 150,
+                color: Colors.green,
+              ),
+              const SizedBox(
+                width: 10,
+              ),
+              Container(
+                width: 150,
+                color: Colors.green,
+              ),
+              const SizedBox(
+                width: 10,
+              ),
+              Container(
+                width: 150,
+                color: Colors.green,
+              ),
+              const SizedBox(
+                width: 10,
+              ),
+              Container(
+                width: 150,
+                color: Colors.green,
+              ),
+              const SizedBox(
+                width: 10,
+              ),
+              Container(
+                width: 150,
+                color: Colors.green,
+              ),
+              const SizedBox(
+                width: 10,
+              ),
+              Container(
+                width: 150,
+                color: Colors.green,
+              ),
+              const SizedBox(
+                width: 10,
+              ),
+              Container(
+                width: 150,
+                color: Colors.green,
+              ),
+            ],
+          ),
+        )
+      ],
     );
   }
 }
