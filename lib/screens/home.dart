@@ -1,4 +1,5 @@
 import 'package:albert_heijn_clone/components/appbar.dart';
+import 'package:albert_heijn_clone/components/home_this_week.dart';
 import 'package:albert_heijn_clone/components/search_bar_button.dart';
 import 'package:albert_heijn_clone/localization/hardcoded.dart';
 import 'package:flutter/material.dart';
@@ -20,6 +21,10 @@ class HomeScreen extends StatelessWidget {
                 HomeSearchBarButton(
                   onPressed: () {},
                 ),
+                const SizedBox(
+                  height: 10,
+                ),
+                const HomeThisWeekSection(),
                 Text(
                   'Welcome'.hardcoded,
                   style: const TextStyle(fontSize: 25),
