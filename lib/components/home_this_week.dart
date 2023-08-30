@@ -13,9 +13,8 @@ class HomeThisWeekSection extends StatelessWidget {
           'This Week in Albert Heijn'.hardcoded,
           style: const TextStyle(fontSize: 25),
         ),
-        Container(
+        SizedBox(
           height: 150,
-          width: double.infinity,
           child: ListView(
             scrollDirection: Axis.horizontal,
             children: [
