@@ -7,6 +7,7 @@ class HomeThisWeekSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
+      // TODO remove padding
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
