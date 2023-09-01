@@ -21,7 +21,7 @@ class HomeThisWeekSection extends StatelessWidget {
             children: [
               Container(
                 width: 150,
-                color: Colors.green,
+                color: Colors.red,
               ),
               const SizedBox(
                 width: 10,
