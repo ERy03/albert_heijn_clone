@@ -1,3 +1,4 @@
+import 'package:albert_heijn_clone/constant/colors.dart';
 import 'package:albert_heijn_clone/localization/hardcoded.dart';
 import 'package:flutter/material.dart';
 
@@ -31,12 +32,12 @@ class HomeSearchBarButton extends StatelessWidget {
         },
         icon: const Icon(
           Icons.search_outlined,
-          color: Color(0xff26303A),
+          color: ahDarkBlue,
         ),
         label: Text(
           'Search product'.hardcoded,
           style: const TextStyle(
-            color: Color(0xff647887),
+            color: Color(0xff687785),
           ),
         ),
       ),
