@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
                   onPressed: () {},
                 ),
                 const SizedBox(
-                  height: 10,
+                  height: 25,
                 ),
                 const HomeThisWeekSection(),
                 Text(
