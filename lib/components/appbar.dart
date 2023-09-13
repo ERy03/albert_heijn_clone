@@ -1,3 +1,4 @@
+import 'package:albert_heijn_clone/constant/colors.dart';
 import 'package:flutter/material.dart';
 
 class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
@@ -12,7 +13,11 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
       elevation: 0,
       scrolledUnderElevation: 1,
       leading: AppBarIcon(
-        icon: Image.asset('assets/images/appbar_leading.png', width: 25),
+        icon: Image.asset(
+          'assets/images/appbar_leading.png',
+          width: 25,
+          color: ahDarkBlue,
+        ),
         onPressed: () {
           //TODO
         },
@@ -22,7 +27,10 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
         onTap: () {
           //TODO
         },
-        child: Image.asset('assets/images/logo.png', width: 140),
+        child: Image.asset(
+          'assets/images/logo.png',
+          width: 140,
+        ),
       ),
       centerTitle: true,
       actions: [
@@ -30,14 +38,18 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
           onPressed: () {
             //TODO
           },
-          icon: Image.asset('assets/images/appbar_action.png', width: 27),
+          icon: Image.asset(
+            'assets/images/appbar_action.png',
+            width: 27,
+            color: ahDarkBlue,
+          ),
         ),
         AppBarIcon(
           onPressed: () {
             //TODO
           },
           icon: const Icon(Icons.person_outline_rounded,
-              color: Colors.black, size: 27),
+              color: ahDarkBlue, size: 27),
         ),
       ],
     );
