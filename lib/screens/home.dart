@@ -25,6 +25,9 @@ class HomeScreen extends StatelessWidget {
                   height: 25,
                 ),
                 const HomeThisWeekSection(),
+                const SizedBox(
+                  height: 25,
+                ),
                 Text(
                   'Welcome'.hardcoded,
                   style: const TextStyle(fontSize: 25),
