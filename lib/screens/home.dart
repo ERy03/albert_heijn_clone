@@ -1,4 +1,5 @@
 import 'package:albert_heijn_clone/components/appbar.dart';
+import 'package:albert_heijn_clone/components/home_ad.dart';
 import 'package:albert_heijn_clone/components/home_this_week.dart';
 import 'package:albert_heijn_clone/components/search_bar_button.dart';
 import 'package:albert_heijn_clone/localization/hardcoded.dart';
@@ -28,6 +29,7 @@ class HomeScreen extends StatelessWidget {
                 const SizedBox(
                   height: 25,
                 ),
+                const HomeAd(),
                 Text(
                   'Welcome'.hardcoded,
                   style: const TextStyle(fontSize: 25),
