@@ -2,6 +2,10 @@
 
 A new Flutter project.
 
+## Image Sources
+
+Image by <a href="https://www.freepik.com/free-photo/bowl-with-feed-paw-figure-light-background_4731997.htm#query=pet%20food&position=30&from_view=search&track=ais">Freepik</a>
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.

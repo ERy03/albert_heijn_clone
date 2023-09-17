@@ -1,4 +1,4 @@
-import 'package:albert_heijn_clone/components/data/data.dart';
+import 'package:albert_heijn_clone/data/data.dart';
 import 'package:albert_heijn_clone/components/home_this_week_image_container.dart';
 import 'package:albert_heijn_clone/constant/colors.dart';
 import 'package:albert_heijn_clone/localization/hardcoded.dart';
