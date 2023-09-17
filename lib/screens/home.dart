@@ -29,6 +29,9 @@ class HomeScreen extends StatelessWidget {
                 const SizedBox(
                   height: 25,
                 ),
+                const SizedBox(
+                  height: 28,
+                ),
                 const HomeAd(),
                 Text(
                   'Welcome'.hardcoded,
