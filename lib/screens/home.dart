@@ -29,10 +29,10 @@ class HomeScreen extends StatelessWidget {
                 const SizedBox(
                   height: 25,
                 ),
+                const HomeAd(),
                 const SizedBox(
                   height: 28,
                 ),
-                const HomeAd(),
                 Text(
                   'Welcome'.hardcoded,
                   style: const TextStyle(fontSize: 25),
