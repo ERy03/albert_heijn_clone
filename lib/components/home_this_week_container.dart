@@ -1,8 +1,8 @@
 import 'package:albert_heijn_clone/components/rounded_arrow_icon.dart';
 import 'package:flutter/material.dart';
 
-class HomeThisWeekImageContainer extends StatelessWidget {
-  const HomeThisWeekImageContainer({
+class HomeThisWeekContainer extends StatelessWidget {
+  const HomeThisWeekContainer({
     Key? key,
     required this.image,
     required this.title,
