@@ -1,5 +1,8 @@
+import 'package:albert_heijn_clone/components/home_bonus_brochure_container.dart';
 import 'package:albert_heijn_clone/constant/colors.dart';
+import 'package:albert_heijn_clone/data/data.dart';
 import 'package:albert_heijn_clone/localization/hardcoded.dart';
+import 'package:albert_heijn_clone/models/bonus_selection.dart';
 import 'package:flutter/material.dart';
 
 class HomeBonusBrochureSection extends StatelessWidget {
@@ -42,18 +45,13 @@ class HomeBonusBrochureSection extends StatelessWidget {
               ),
               scrollDirection: Axis.horizontal,
               itemBuilder: (context, index) {
-                return Container(
-                  width: 300,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(12),
-                    color: Colors.red,
-                  ),
-                );
+                return HomeBonusBrochureContainer(
+                    bonusSelection: bonusSelectionData[index]);
               },
               separatorBuilder: (context, index) => const SizedBox(
-                width: 16,
+                width: 12,
               ),
-              itemCount: 3,
+              itemCount: bonusSelectionData.length,
             ),
           )
         ],
