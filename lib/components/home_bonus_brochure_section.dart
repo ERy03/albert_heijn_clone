@@ -49,7 +49,7 @@ class HomeBonusBrochureSection extends StatelessWidget {
                     bonusSelection: bonusSelectionData[index]);
               },
               separatorBuilder: (context, index) => const SizedBox(
-                width: 12,
+                width: 10,
               ),
               itemCount: bonusSelectionData.length,
             ),
