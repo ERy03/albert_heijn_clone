@@ -61,9 +61,7 @@ class HomeThisWeekContainer extends StatelessWidget {
             const Positioned(
               bottom: 13,
               right: 13,
-              child: RoundedArrowIcon(
-                backgroundColor: Colors.white,
-              ),
+              child: RoundedArrowIcon(),
             ),
           ],
         ),
