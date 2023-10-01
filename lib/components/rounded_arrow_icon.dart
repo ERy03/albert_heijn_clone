@@ -5,12 +5,10 @@ class RoundedArrowIcon extends StatelessWidget {
   const RoundedArrowIcon({
     Key? key,
     this.color = ahDarkBlue,
-    this.backgroundColor = Colors.transparent,
     this.border = false,
   }) : super(key: key);
 
   final Color color;
-  final Color backgroundColor;
   final bool border;
 
   @override
@@ -19,7 +17,7 @@ class RoundedArrowIcon extends StatelessWidget {
       height: 32,
       width: 32,
       decoration: BoxDecoration(
-        color: backgroundColor,
+        color: Colors.white,
         border: border
             ? Border.all(
                 color: color,
