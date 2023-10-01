@@ -1,4 +1,5 @@
 import 'package:albert_heijn_clone/components/rounded_arrow_icon.dart';
+import 'package:albert_heijn_clone/constant/colors.dart';
 import 'package:albert_heijn_clone/models/bonus_selection.dart';
 import 'package:flutter/material.dart';
 
@@ -22,18 +23,18 @@ class HomeBonusBrochureContainer extends StatelessWidget {
             width: 1,
           ),
           borderRadius: BorderRadius.circular(4),
-          image: DecorationImage(
-            image: AssetImage(bonusSelection.imagePath),
-            fit: BoxFit.cover,
-          ),
         ),
         child: Stack(
           children: [
+            Image.asset(
+              bonusSelection.imagePath.toString(),
+              fit: BoxFit.cover,
+            ),
             Positioned(
               top: 10,
               left: 15,
               child: SizedBox(
-                width: 290,
+                width: 200,
                 child: Text(
                   bonusSelection.title,
                   maxLines: 2,
@@ -56,10 +57,11 @@ class HomeBonusBrochureContainer extends StatelessWidget {
               ),
             ),
             const Positioned(
-              bottom: 13,
-              right: 13,
+              bottom: 12,
+              right: 12,
               child: RoundedArrowIcon(
-                backgroundColor: Colors.white,
+                border: true,
+                color: ahOrange,
               ),
             ),
           ],
