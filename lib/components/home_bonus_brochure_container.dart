@@ -1,5 +1,6 @@
 import 'package:albert_heijn_clone/components/rounded_arrow_icon.dart';
 import 'package:albert_heijn_clone/constant/colors.dart';
+import 'package:albert_heijn_clone/localization/hardcoded.dart';
 import 'package:albert_heijn_clone/models/bonus_selection.dart';
 import 'package:flutter/material.dart';
 
@@ -37,22 +38,42 @@ class HomeBonusBrochureContainer extends StatelessWidget {
                 width: 197,
                 child: Column(
                   children: [
+                    // Image Part with bonus label and bonus price
                     Container(
                       color: Colors.grey.shade300,
                       height: 140,
+                      width: double.infinity,
+                      child: Stack(
+                        alignment: Alignment.bottomLeft,
+                        children: [
+                          Positioned(
+                            child: Text('hello'),
+                          ),
+                        ],
+                      ),
                     ),
+                    // SizedBox
                     Container(
                       height: 13,
                       color: Colors.red.shade100,
                     ),
+                    // Text Part
                     Container(
                       color: Colors.grey.shade300,
                       height: 53,
+                      width: double.infinity,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text('today'.hardcoded),
+                        ],
+                      ),
                     ),
                   ],
                 ),
               ),
             ),
+            // Orange Rounded Arrow Button
             const Positioned(
               bottom: 12,
               right: 12,
