@@ -5,6 +5,5 @@ const TextStyle ahCarroisGothic = TextStyle(
     fontFamily: 'CarroisGothic',
     color: ahOrange,
     fontSize: 16,
-    backgroundColor: Colors.red,
     height: 0,
     letterSpacing: -0.3);
