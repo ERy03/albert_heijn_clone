@@ -2,7 +2,6 @@ import 'package:albert_heijn_clone/components/home_bonus_brochure_container.dart
 import 'package:albert_heijn_clone/constant/colors.dart';
 import 'package:albert_heijn_clone/data/data.dart';
 import 'package:albert_heijn_clone/localization/hardcoded.dart';
-import 'package:albert_heijn_clone/models/bonus_selection.dart';
 import 'package:flutter/material.dart';
 
 class HomeBonusBrochureSection extends StatelessWidget {
