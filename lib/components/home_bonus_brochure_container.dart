@@ -26,33 +26,30 @@ class HomeBonusBrochureContainer extends StatelessWidget {
         ),
         child: Stack(
           children: [
-            Image.asset(
-              bonusSelection.imagePath.toString(),
-              fit: BoxFit.cover,
-            ),
-            Positioned(
-              top: 10,
-              left: 15,
+            Padding(
+              padding: const EdgeInsets.only(
+                top: 12,
+                left: 15,
+                right: 15,
+              ),
               child: SizedBox(
-                width: 200,
-                child: Text(
-                  bonusSelection.title,
-                  maxLines: 2,
-                  style: const TextStyle(
-                    shadows: [
-                      Shadow(
-                        color: Colors.black,
-                        offset: Offset(1, 1),
-                        blurRadius: 1,
-                      ),
-                    ],
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
-                    letterSpacing: -0.4,
-                    color: Colors.white,
-                    overflow: TextOverflow.ellipsis,
-                    height: 1.6,
-                  ),
+                height: 206,
+                width: 197,
+                child: Column(
+                  children: [
+                    Container(
+                      color: Colors.grey.shade300,
+                      height: 140,
+                    ),
+                    Container(
+                      height: 13,
+                      color: Colors.red.shade100,
+                    ),
+                    Container(
+                      color: Colors.grey.shade300,
+                      height: 53,
+                    ),
+                  ],
                 ),
               ),
             ),
@@ -62,6 +59,8 @@ class HomeBonusBrochureContainer extends StatelessWidget {
               child: RoundedArrowIcon(
                 border: true,
                 color: ahOrange,
+                height: 25,
+                width: 25,
               ),
             ),
           ],
