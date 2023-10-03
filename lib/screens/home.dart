@@ -35,6 +35,9 @@ class HomeScreen extends StatelessWidget {
                   height: 28,
                 ),
                 const HomeBonusBrochureSection(),
+                const SizedBox(
+                  height: 25,
+                ),
                 Text(
                   'Welcome'.hardcoded,
                   style: const TextStyle(fontSize: 25),
