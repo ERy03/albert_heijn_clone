@@ -1,4 +1,5 @@
 import 'package:albert_heijn_clone/models/bonus_selection.dart';
+import 'package:albert_heijn_clone/models/free_delivery.dart';
 
 const thisWeekData = [
   {
@@ -38,5 +39,24 @@ List<BonusSelection> bonusSelectionData = [
     originalPrice: '3.09',
     bonusPrice: '0.99',
     bonusLabel: 'For 0.99',
+  ),
+];
+
+List<FreeDelivery> freeDeliveryData = [
+  FreeDelivery(
+    title: 'Free delivery for 6 pieces',
+    imagePath: 'assets/images/freeDelivery-1.png',
+    bonusLabel: 'Pure Chocolate: Free delivery for 6 pieces',
+  ),
+  FreeDelivery(
+    title: '3 euro delivery discount',
+    imagePath: 'assets/images/freeDelivery-2.png',
+    bonusLabel:
+        'Protein bars, proteins shakes, protein powders, nuts: 3 euro delivery discount',
+  ),
+  FreeDelivery(
+    title: 'Free delivery on orders over 15 euros',
+    imagePath: 'assets/images/freeDelivery-3.png',
+    bonusLabel: 'Fresh fruits: Free delivery on orders over 15 euros',
   ),
 ];
