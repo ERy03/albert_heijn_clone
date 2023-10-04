@@ -44,19 +44,19 @@ List<BonusSelection> bonusSelectionData = [
 
 List<FreeDelivery> freeDeliveryData = [
   FreeDelivery(
-    title: 'Free delivery for 6 pieces',
+    title: 'Pure Chocolate: Free delivery for 6 pieces',
     imagePath: 'assets/images/freeDelivery-1.png',
-    bonusLabel: 'Pure Chocolate: Free delivery for 6 pieces',
+    bonusLabel: 'Free delivery for 6 pieces',
   ),
   FreeDelivery(
-    title: '3 euro delivery discount',
-    imagePath: 'assets/images/freeDelivery-2.png',
-    bonusLabel:
+    title:
         'Protein bars, proteins shakes, protein powders, nuts: 3 euro delivery discount',
+    imagePath: 'assets/images/freeDelivery-2.png',
+    bonusLabel: '3 euro delivery discount',
   ),
   FreeDelivery(
-    title: 'Free delivery on orders over 15 euros',
+    title: 'Fresh fruits: Free delivery on orders over 15 euros',
     imagePath: 'assets/images/freeDelivery-3.png',
-    bonusLabel: 'Fresh fruits: Free delivery on orders over 15 euros',
+    bonusLabel: 'Free delivery on orders over 15 euros',
   ),
 ];
