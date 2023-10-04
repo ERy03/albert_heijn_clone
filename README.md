@@ -12,6 +12,12 @@ Image by <a href="https://www.freepik.com/free-photo/bowl-with-feed-paw-figure-l
 
 <a href="https://www.freepik.com/free-vector/set-cheese-types-roquefort-brie-maasdam_13411327.htm#query=cheese&position=21&from_view=search&track=sph">Image by upklyak</a> on Freepik
 
+<a href="https://www.freepik.com/free-photo/oranges-green-red-apples_1246191.htm#page=2&query=fruits%20package&position=41&from_view=search&track=ais">Image by topntp26</a> on Freepik
+
+<a href="https://www.freepik.com/free-vector/realistic-almond-walnut-dark-chocolate-bar-package-template-vector-illustration_26760270.htm#page=2&query=cereal%20box&position=36&from_view=search&track=ais">Image by macrovector</a> on Freepik
+
+<a href="https://www.freepik.com/free-vector/fitness-sport-muscle-mass-gaining-protein-rich-food-realistic-composition-with-supplements-cheese-meat-nuts_6801360.htm#query=proteins%20packages&position=11&from_view=search&track=ais">Image by macrovector</a> on Freepik
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
