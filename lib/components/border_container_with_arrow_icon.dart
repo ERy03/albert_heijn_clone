@@ -30,9 +30,9 @@ class BorderContainerWithArrowIcon extends StatelessWidget {
                 top: 12,
                 left: 15,
                 right: 15,
+                bottom: 15,
               ),
               child: SizedBox(
-                height: 206,
                 width: 197,
                 child: child,
               ),
