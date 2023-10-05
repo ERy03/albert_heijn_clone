@@ -39,14 +39,13 @@ class HomeBonusBrochureContainer extends StatelessWidget {
                       color: ahOrange,
                       borderRadius: BorderRadius.circular(4),
                     ),
-                    child: Center(
-                      child: Text(
-                        bonusSelection.bonusLabel,
-                        style: const TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.w700,
-                          fontSize: 16,
-                        ),
+                    child: Text(
+                      bonusSelection.bonusLabel,
+                      textAlign: TextAlign.center,
+                      style: const TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.w700,
+                        fontSize: 16,
                       ),
                     ),
                   ),
