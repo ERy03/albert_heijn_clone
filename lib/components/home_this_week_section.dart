@@ -9,14 +9,12 @@ class HomeThisWeekSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(
-        left: 16.0,
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Padding(
+          padding: const EdgeInsets.only(left: 16.0),
+          child: Text(
             'This Week in Albert Heijn'.hardcoded,
             style: const TextStyle(
               fontSize: 20,
@@ -25,24 +23,30 @@ class HomeThisWeekSection extends StatelessWidget {
               color: ahDarkBlue,
             ),
           ),
-          const SizedBox(
-            height: 15,
-          ),
-          SizedBox(
-            height: 230,
-            child: ListView.builder(
-              itemCount: thisWeekData.length,
-              scrollDirection: Axis.horizontal,
-              itemBuilder: (context, index) {
-                return HomeThisWeekContainer(
-                  image: thisWeekData[index]['image']!,
-                  title: thisWeekData[index]['title']!,
-                );
-              },
+        ),
+        const SizedBox(
+          height: 15,
+        ),
+        SizedBox(
+          height: 230,
+          child: ListView.separated(
+            padding: const EdgeInsets.symmetric(
+              horizontal: 16,
+            ),
+            scrollDirection: Axis.horizontal,
+            itemCount: thisWeekData.length,
+            itemBuilder: (context, index) {
+              return HomeThisWeekContainer(
+                image: thisWeekData[index]['image']!,
+                title: thisWeekData[index]['title']!,
+              );
+            },
+            separatorBuilder: (context, index) => const SizedBox(
+              width: 10,
             ),
           ),
-        ],
-      ),
+        ),
+      ],
     );
   }
 }
