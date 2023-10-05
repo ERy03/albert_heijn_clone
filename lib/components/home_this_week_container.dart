@@ -19,9 +19,6 @@ class HomeThisWeekContainer extends StatelessWidget {
         print('hello');
       },
       child: Container(
-        margin: const EdgeInsets.only(
-          right: 16.0,
-        ),
         width: 315,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(12),
