@@ -9,14 +9,12 @@ class HomeBonusBrochureSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(
-        left: 16.0,
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Padding(
+          padding: const EdgeInsets.only(left: 16),
+          child: Text(
             'From the Bonus brochure'.hardcoded,
             style: const TextStyle(
               fontSize: 20,
@@ -25,7 +23,10 @@ class HomeBonusBrochureSection extends StatelessWidget {
               color: ahDarkBlue,
             ),
           ),
-          Text(
+        ),
+        Padding(
+          padding: const EdgeInsets.only(left: 16),
+          child: Text(
             'A selection of our offers'.hardcoded,
             style: const TextStyle(
               fontSize: 15,
@@ -33,28 +34,28 @@ class HomeBonusBrochureSection extends StatelessWidget {
               color: Colors.grey,
             ),
           ),
-          const SizedBox(
-            height: 18,
-          ),
-          SizedBox(
-            height: 258,
-            child: ListView.separated(
-              padding: const EdgeInsets.only(
-                right: 16,
-              ),
-              scrollDirection: Axis.horizontal,
-              itemBuilder: (context, index) {
-                return HomeBonusBrochureContainer(
-                    bonusSelection: bonusSelectionData[index]);
-              },
-              separatorBuilder: (context, index) => const SizedBox(
-                width: 10,
-              ),
-              itemCount: bonusSelectionData.length,
+        ),
+        const SizedBox(
+          height: 18,
+        ),
+        SizedBox(
+          height: 258,
+          child: ListView.separated(
+            padding: const EdgeInsets.symmetric(
+              horizontal: 16,
             ),
-          )
-        ],
-      ),
+            scrollDirection: Axis.horizontal,
+            itemBuilder: (context, index) {
+              return HomeBonusBrochureContainer(
+                  bonusSelection: bonusSelectionData[index]);
+            },
+            separatorBuilder: (context, index) => const SizedBox(
+              width: 10,
+            ),
+            itemCount: bonusSelectionData.length,
+          ),
+        )
+      ],
     );
   }
 }

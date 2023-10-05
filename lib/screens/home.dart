@@ -1,9 +1,9 @@
 import 'package:albert_heijn_clone/components/appbar.dart';
 import 'package:albert_heijn_clone/components/home_ad.dart';
 import 'package:albert_heijn_clone/components/home_bonus_brochure_section.dart';
+import 'package:albert_heijn_clone/components/home_free_delivery_section.dart';
 import 'package:albert_heijn_clone/components/home_this_week_section.dart';
 import 'package:albert_heijn_clone/components/search_bar_button.dart';
-import 'package:albert_heijn_clone/localization/hardcoded.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -35,46 +35,10 @@ class HomeScreen extends StatelessWidget {
                   height: 28,
                 ),
                 const HomeBonusBrochureSection(),
-                Text(
-                  'Welcome'.hardcoded,
-                  style: const TextStyle(fontSize: 25),
+                const SizedBox(
+                  height: 25,
                 ),
-                Container(
-                  height: 150,
-                  color: Colors.blue,
-                ),
-                Text(
-                  'Welcome'.hardcoded,
-                  style: const TextStyle(fontSize: 25),
-                ),
-                Container(
-                  height: 150,
-                  color: Colors.blue,
-                ),
-                Text(
-                  'Welcome'.hardcoded,
-                  style: const TextStyle(fontSize: 25),
-                ),
-                Container(
-                  height: 150,
-                  color: Colors.blue,
-                ),
-                Text(
-                  'Welcome'.hardcoded,
-                  style: const TextStyle(fontSize: 25),
-                ),
-                Container(
-                  height: 150,
-                  color: Colors.blue,
-                ),
-                Text(
-                  'Welcome'.hardcoded,
-                  style: const TextStyle(fontSize: 25),
-                ),
-                Container(
-                  height: 150,
-                  color: Colors.blue,
-                ),
+                const HomeFreeDeliverySection(),
               ],
             ),
           )
