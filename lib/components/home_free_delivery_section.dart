@@ -9,14 +9,12 @@ class HomeFreeDeliverySection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(
-        left: 16.0,
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Padding(
+          padding: const EdgeInsets.only(left: 16.0),
+          child: Text(
             'Free delivery'.hardcoded,
             style: const TextStyle(
               fontSize: 20,
@@ -25,28 +23,28 @@ class HomeFreeDeliverySection extends StatelessWidget {
               color: ahDarkBlue,
             ),
           ),
-          const SizedBox(
-            height: 25,
-          ),
-          SizedBox(
-            height: 258,
-            child: ListView.separated(
-              padding: const EdgeInsets.only(
-                right: 16,
-              ),
-              scrollDirection: Axis.horizontal,
-              itemBuilder: (context, index) {
-                return HomeFreeDeliveryContainer(
-                    freeDelivery: freeDeliveryData[index]);
-              },
-              separatorBuilder: (context, index) => const SizedBox(
-                width: 10,
-              ),
-              itemCount: freeDeliveryData.length,
+        ),
+        const SizedBox(
+          height: 25,
+        ),
+        SizedBox(
+          height: 258,
+          child: ListView.separated(
+            padding: const EdgeInsets.symmetric(
+              horizontal: 16,
             ),
-          )
-        ],
-      ),
+            scrollDirection: Axis.horizontal,
+            itemBuilder: (context, index) {
+              return HomeFreeDeliveryContainer(
+                  freeDelivery: freeDeliveryData[index]);
+            },
+            separatorBuilder: (context, index) => const SizedBox(
+              width: 10,
+            ),
+            itemCount: freeDeliveryData.length,
+          ),
+        )
+      ],
     );
   }
 }
