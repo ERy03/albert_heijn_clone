@@ -1,3 +1,4 @@
+import 'package:albert_heijn_clone/data/data.dart';
 import 'package:flutter/material.dart';
 
 class HomeAd extends StatelessWidget {
@@ -23,16 +24,16 @@ class HomeAd extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              const SizedBox(
+              SizedBox(
                 width: 170,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      'Rich in protein & full of flavor',
+                      adData.title,
                       maxLines: 2,
-                      style: TextStyle(
+                      style: const TextStyle(
                         fontSize: 15,
                         fontWeight: FontWeight.bold,
                         letterSpacing: 0.30,
@@ -41,25 +42,25 @@ class HomeAd extends StatelessWidget {
                         height: 1.6,
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 10,
                     ),
                     Row(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Text(
-                          'Try Felix now',
-                          style: TextStyle(
+                          adData.actionText,
+                          style: const TextStyle(
                             fontSize: 14,
                             color: Colors.black,
                             overflow: TextOverflow.ellipsis,
                             height: 1.6,
                           ),
                         ),
-                        SizedBox(
+                        const SizedBox(
                           width: 9,
                         ),
-                        Icon(
+                        const Icon(
                           Icons.arrow_forward_ios,
                           size: 11,
                           weight: 10,
@@ -70,7 +71,7 @@ class HomeAd extends StatelessWidget {
                 ),
               ),
               Image.asset(
-                'assets/images/pet-food.png',
+                adData.imagePath,
                 fit: BoxFit.cover,
                 alignment: Alignment.centerLeft,
                 height: 114,
