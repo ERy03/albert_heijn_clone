@@ -1,6 +1,13 @@
+import 'package:albert_heijn_clone/models/ad_model.dart';
 import 'package:albert_heijn_clone/models/bonus_selection_model.dart';
 import 'package:albert_heijn_clone/models/free_delivery_model.dart';
 import 'package:albert_heijn_clone/models/this_week_model.dart';
+
+AdModel adData = AdModel(
+  title: 'Rich in protein & full of flavor',
+  actionText: 'Try Felix now',
+  imagePath: 'assets/images/pet-food.png',
+);
 
 List<ThisWeekModel> thisWeekData = [
   ThisWeekModel(
