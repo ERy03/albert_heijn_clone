@@ -17,6 +17,11 @@ Image by <a href="https://www.freepik.com/free-photo/bowl-with-feed-paw-figure-l
 <a href="https://www.freepik.com/free-vector/realistic-almond-walnut-dark-chocolate-bar-package-template-vector-illustration_26760270.htm#page=2&query=cereal%20box&position=36&from_view=search&track=ais">Image by macrovector</a> on Freepik
 
 <a href="https://www.freepik.com/free-vector/fitness-sport-muscle-mass-gaining-protein-rich-food-realistic-composition-with-supplements-cheese-meat-nuts_6801360.htm#query=proteins%20packages&position=11&from_view=search&track=ais">Image by macrovector</a> on Freepik
+<a href="https://www.freepik.com/free-photo/blank-blue-concrete-wall-texture-background_4390596.htm#page=5&query=blue%20with%20texture&position=42&from_view=search&track=ais">Image by starline</a> on Freepik
+<a href="https://www.freepik.com/free-photo/empty-wall-with-copy-space_1239973.htm#query=orange%20with%20texture&position=39&from_view=search&track=ais">Image by topntp26</a> on Freepik
+Image by <a href="https://www.freepik.com/free-photo/tasty-spaghetti-wrapped-around-fork_4676076.htm#query=tomato%20pasta%20png&position=27&from_view=search&track=ais">Freepik</a>
+<a href="https://www.freepik.com/free-photo/full-length-portrait-joyful-couple-having-fun_6729695.htm#page=3&query=shopping%20cart%20png&position=1&from_view=search&track=ais">Image by drobotdean</a> on Freepik
+<a href="https://www.freepik.com/free-photo/front-view-french-macarons-along-with-colorful-candies-inside-baskets-white-color-sugar-sweet-lollipop_9909984.htm#page=4&query=sweets%20png&position=1&from_view=search&track=ais#position=1&page=4&query=sweets%20png">Image by KamranAydinov</a> on Freepik
 
 ## Getting Started
 
