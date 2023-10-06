@@ -1,4 +1,4 @@
-class BonusSelection {
+class BonusSelectionModel {
   final String title;
   final String? description;
   final String imagePath;
@@ -6,7 +6,7 @@ class BonusSelection {
   final String bonusPrice;
   final String bonusLabel;
 
-  BonusSelection({
+  BonusSelectionModel({
     required this.title,
     required this.imagePath,
     required this.originalPrice,

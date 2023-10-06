@@ -2,13 +2,14 @@ import 'package:albert_heijn_clone/components/common/border_container_with_arrow
 import 'package:albert_heijn_clone/constant/colors.dart';
 import 'package:albert_heijn_clone/constant/text_style.dart';
 import 'package:albert_heijn_clone/localization/hardcoded.dart';
-import 'package:albert_heijn_clone/models/bonus_selection.dart';
+import 'package:albert_heijn_clone/models/bonus_selection_model.dart';
+
 import 'package:flutter/material.dart';
 
 class HomeBonusBrochureContainer extends StatelessWidget {
   const HomeBonusBrochureContainer({super.key, required this.bonusSelection});
 
-  final BonusSelection bonusSelection;
+  final BonusSelectionModel bonusSelection;
 
   @override
   Widget build(BuildContext context) {

@@ -1,23 +1,27 @@
-import 'package:albert_heijn_clone/models/bonus_selection.dart';
-import 'package:albert_heijn_clone/models/free_delivery.dart';
+import 'package:albert_heijn_clone/models/bonus_selection_model.dart';
+import 'package:albert_heijn_clone/models/free_delivery_model.dart';
+import 'package:albert_heijn_clone/models/this_week_model.dart';
 
-const thisWeekData = [
-  {
-    'title': 'Recipes for fresh tomato pasta',
-    'image': 'assets/images/this_week_img1.jpg',
-  },
-  {
-    'title': 'What are some of the most purchased items in AH?',
-    'image': 'assets/images/this_week_img2.jpg',
-  },
-  {
-    'title': 'New snacks that will sweeten your day',
-    'image': 'assets/images/this_week_img3.jpg',
-  },
+List<ThisWeekModel> thisWeekData = [
+  ThisWeekModel(
+    title: 'What are some of the most purchased items in AH?',
+    backgroundImage: 'assets/images/homeThisWeek_bg1.jpeg',
+    image: 'assets/images/homeThisWeek-2.png',
+  ),
+  ThisWeekModel(
+    title: 'Recipes for fresh tomato pasta',
+    backgroundImage: 'assets/images/homeThisWeek_bg2.jpeg',
+    image: 'assets/images/homeThisWeek-1.png',
+  ),
+  ThisWeekModel(
+    title: 'New snacks that will sweeten your day',
+    backgroundImage: 'assets/images/homeThisWeek_bg1.jpeg',
+    image: 'assets/images/homeThisWeek-3.png',
+  ),
 ];
 
-List<BonusSelection> bonusSelectionData = [
-  BonusSelection(
+List<BonusSelectionModel> bonusSelectionData = [
+  BonusSelectionModel(
     title: 'All Ice cream',
     description: "E.g. Magnum, Cornetto, Ben & Jerry's",
     imagePath: 'assets/images/bonusSelection-1.png',
@@ -25,14 +29,14 @@ List<BonusSelection> bonusSelectionData = [
     bonusPrice: '2.99',
     bonusLabel: '1 + 1 FREE',
   ),
-  BonusSelection(
+  BonusSelectionModel(
     title: 'All AH Yoghurt',
     imagePath: 'assets/images/bonusSelection-2.png',
     originalPrice: '1.99',
     bonusPrice: '2.49',
     bonusLabel: '25% OFF',
   ),
-  BonusSelection(
+  BonusSelectionModel(
     title: 'All Cheese',
     description: "Per Stock",
     imagePath: 'assets/images/bonusSelection-3.png',
@@ -42,19 +46,19 @@ List<BonusSelection> bonusSelectionData = [
   ),
 ];
 
-List<FreeDelivery> freeDeliveryData = [
-  FreeDelivery(
+List<FreeDeliveryModel> freeDeliveryData = [
+  FreeDeliveryModel(
     title: 'Pure Chocolate: Free delivery for 6 pieces',
     imagePath: 'assets/images/freeDelivery-1.png',
     bonusLabel: 'Free delivery for 6 pieces',
   ),
-  FreeDelivery(
+  FreeDeliveryModel(
     title:
         'Protein bars, proteins shakes, protein powders, nuts: 3 euro delivery discount',
     imagePath: 'assets/images/freeDelivery-2.png',
     bonusLabel: '3 euro delivery discount',
   ),
-  FreeDelivery(
+  FreeDeliveryModel(
     title: 'Fresh fruits: Free delivery on orders over 15 euros',
     imagePath: 'assets/images/freeDelivery-3.png',
     bonusLabel: 'Free delivery on orders over 15 euros',

@@ -2,13 +2,13 @@ import 'package:albert_heijn_clone/components/common/border_container_with_arrow
 import 'package:albert_heijn_clone/constant/colors.dart';
 import 'package:albert_heijn_clone/constant/text_style.dart';
 import 'package:albert_heijn_clone/localization/hardcoded.dart';
-import 'package:albert_heijn_clone/models/free_delivery.dart';
+import 'package:albert_heijn_clone/models/free_delivery_model.dart';
 import 'package:flutter/material.dart';
 
 class HomeFreeDeliveryContainer extends StatelessWidget {
   const HomeFreeDeliveryContainer({super.key, required this.freeDelivery});
 
-  final FreeDelivery freeDelivery;
+  final FreeDeliveryModel freeDelivery;
 
   @override
   Widget build(BuildContext context) {

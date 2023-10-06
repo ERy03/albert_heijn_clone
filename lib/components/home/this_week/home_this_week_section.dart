@@ -37,8 +37,7 @@ class HomeThisWeekSection extends StatelessWidget {
             itemCount: thisWeekData.length,
             itemBuilder: (context, index) {
               return HomeThisWeekContainer(
-                image: thisWeekData[index]['image']!,
-                title: thisWeekData[index]['title']!,
+                thisWeek: thisWeekData[index],
               );
             },
             separatorBuilder: (context, index) => const SizedBox(
