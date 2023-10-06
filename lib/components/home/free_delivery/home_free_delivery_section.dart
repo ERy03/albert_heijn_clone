@@ -1,11 +1,11 @@
-import 'package:albert_heijn_clone/components/home_bonus_brochure_container.dart';
+import 'package:albert_heijn_clone/components/home/free_delivery/home_free_delivery_container.dart';
 import 'package:albert_heijn_clone/constant/colors.dart';
 import 'package:albert_heijn_clone/data/data.dart';
 import 'package:albert_heijn_clone/localization/hardcoded.dart';
 import 'package:flutter/material.dart';
 
-class HomeBonusBrochureSection extends StatelessWidget {
-  const HomeBonusBrochureSection({super.key});
+class HomeFreeDeliverySection extends StatelessWidget {
+  const HomeFreeDeliverySection({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,9 +13,9 @@ class HomeBonusBrochureSection extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(
-          padding: const EdgeInsets.only(left: 16),
+          padding: const EdgeInsets.only(left: 16.0),
           child: Text(
-            'From the Bonus brochure'.hardcoded,
+            'Free delivery'.hardcoded,
             style: const TextStyle(
               fontSize: 20,
               fontWeight: FontWeight.bold,
@@ -24,19 +24,8 @@ class HomeBonusBrochureSection extends StatelessWidget {
             ),
           ),
         ),
-        Padding(
-          padding: const EdgeInsets.only(left: 16),
-          child: Text(
-            'A selection of our offers'.hardcoded,
-            style: const TextStyle(
-              fontSize: 15,
-              letterSpacing: -0.40,
-              color: Colors.grey,
-            ),
-          ),
-        ),
         const SizedBox(
-          height: 18,
+          height: 25,
         ),
         SizedBox(
           height: 258,
@@ -46,13 +35,13 @@ class HomeBonusBrochureSection extends StatelessWidget {
             ),
             scrollDirection: Axis.horizontal,
             itemBuilder: (context, index) {
-              return HomeBonusBrochureContainer(
-                  bonusSelection: bonusSelectionData[index]);
+              return HomeFreeDeliveryContainer(
+                  freeDelivery: freeDeliveryData[index]);
             },
             separatorBuilder: (context, index) => const SizedBox(
               width: 10,
             ),
-            itemCount: bonusSelectionData.length,
+            itemCount: freeDeliveryData.length,
           ),
         )
       ],

@@ -1,4 +1,4 @@
-import 'package:albert_heijn_clone/components/border_container_with_arrow_icon.dart';
+import 'package:albert_heijn_clone/components/common/border_container_with_arrow_icon.dart';
 import 'package:albert_heijn_clone/constant/colors.dart';
 import 'package:albert_heijn_clone/constant/text_style.dart';
 import 'package:albert_heijn_clone/localization/hardcoded.dart';
