@@ -1,4 +1,5 @@
 import 'package:albert_heijn_clone/screens/home.dart';
+import 'package:albert_heijn_clone/screens/products.dart';
 import 'package:albert_heijn_clone/screens/scaffold_with_nested_navigation.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
@@ -87,7 +88,7 @@ final goRouter = GoRouter(
               path: '/products',
               builder: (context, state) {
                 //TODO builder
-                return const HomeScreen();
+                return const ProductsScreen();
               },
               routes: const [
                 //   GoRoute(
