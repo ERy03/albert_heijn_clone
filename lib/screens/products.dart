@@ -23,9 +23,9 @@ class ProductsScreen extends StatelessWidget {
               ),
               // Type of recipes section
               const ProductsTypesSection(),
-              //   const SizedBox(
-              //     height: 25,
-              //   ),
+              const SizedBox(
+                height: 28,
+              ),
 
               // Categories section
             ],
