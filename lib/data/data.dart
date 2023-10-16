@@ -1,6 +1,7 @@
 import 'package:albert_heijn_clone/models/ad_model.dart';
 import 'package:albert_heijn_clone/models/bonus_selection_model.dart';
 import 'package:albert_heijn_clone/models/free_delivery_model.dart';
+import 'package:albert_heijn_clone/models/products_types.dart';
 import 'package:albert_heijn_clone/models/this_week_model.dart';
 
 AdModel adData = AdModel(
@@ -69,5 +70,23 @@ List<FreeDeliveryModel> freeDeliveryData = [
     title: 'Fresh fruits: Free delivery on orders over 15 euros',
     imagePath: 'assets/images/freeDelivery-3.png',
     bonusLabel: 'Free delivery on orders over 15 euros',
+  ),
+];
+
+List<ProductsTypesModel> productsTypesData = [
+  ProductsTypesModel(
+    type: 'Vegetable',
+    description: 'Tasty alternatives',
+    image: 'assets/images/productsTypes-1.png',
+  ),
+  ProductsTypesModel(
+    type: 'Evening meal',
+    description: 'Everything for a world evening',
+    image: 'assets/images/productsTypes-1.png',
+  ),
+  ProductsTypesModel(
+    type: 'Baking',
+    description: 'Bake your own creations',
+    image: 'assets/images/productsTypes-1.png',
   ),
 ];
