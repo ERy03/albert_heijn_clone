@@ -13,17 +13,17 @@ AdModel adData = AdModel(
 List<ThisWeekModel> thisWeekData = [
   ThisWeekModel(
     title: 'What are some of the most purchased items in AH?',
-    backgroundImage: 'assets/images/homeThisWeek_bg1.jpeg',
+    backgroundImage: 'assets/images/containerBg-1.jpeg',
     image: 'assets/images/homeThisWeek-2.png',
   ),
   ThisWeekModel(
     title: 'Recipes for fresh tomato pasta',
-    backgroundImage: 'assets/images/homeThisWeek_bg2.jpeg',
+    backgroundImage: 'assets/images/containerBg-2.jpeg',
     image: 'assets/images/homeThisWeek-1.png',
   ),
   ThisWeekModel(
     title: 'New snacks that will sweeten your day',
-    backgroundImage: 'assets/images/homeThisWeek_bg1.jpeg',
+    backgroundImage: 'assets/images/containerBg-1.jpeg',
     image: 'assets/images/homeThisWeek-3.png',
   ),
 ];
@@ -77,16 +77,22 @@ List<ProductsTypesModel> productsTypesData = [
   ProductsTypesModel(
     type: 'Vegetable',
     description: 'Tasty alternatives',
+    backgroundImage: 'assets/images/containerBg-1.jpeg',
     image: 'assets/images/productsTypes-1.png',
+    icon: 'assets/images/icon_plant.png',
   ),
   ProductsTypesModel(
     type: 'Evening meal',
-    description: 'Everything for a world evening',
-    image: 'assets/images/productsTypes-1.png',
+    description: 'Everything for a world dinner',
+    backgroundImage: 'assets/images/containerBg-1.jpeg',
+    image: 'assets/images/productsTypes-2.png',
+    icon: 'assets/images/icon_cutlery.png',
   ),
   ProductsTypesModel(
     type: 'Baking',
     description: 'Bake your own creations',
-    image: 'assets/images/productsTypes-1.png',
+    backgroundImage: 'assets/images/containerBg-1.jpeg',
+    image: 'assets/images/productsTypes-3.png',
+    icon: 'assets/images/icon_baking.png',
   ),
 ];
