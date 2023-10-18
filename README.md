@@ -24,6 +24,12 @@ Image by <a href="https://www.freepik.com/free-photo/tasty-spaghetti-wrapped-aro
 <a href="https://www.freepik.com/free-photo/front-view-french-macarons-along-with-colorful-candies-inside-baskets-white-color-sugar-sweet-lollipop_9909984.htm#page=4&query=sweets%20png&position=1&from_view=search&track=ais#position=1&page=4&query=sweets%20png">Image by KamranAydinov</a> on Freepik
 <a href="https://www.freepik.com/free-photo/large-set-isolated-vegetables-white-background_25959103.htm#query=vegetables%20png&position=0&from_view=search&track=ais">Image by artbutenkov</a> on Freepik
 
+<div> Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons"> Those Icons </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
+<div> Icons made by <a href="https://www.freepik.com" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
+<div> Icons made by <a href="" title="Nadiinko"> Nadiinko </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
+<a href="https://www.freepik.com/free-photo/closeup-croissant-bakery-roll-food_1044727.htm#page=3&query=baking%20png&position=32&from_view=search&track=ais">Image by mrsiraphol</a> on Freepik
+Image by <a href="https://www.freepik.com/free-photo/top-view-delicious-meals-arrangement_20385204.htm#page=8&query=world%20dining%20png&position=33&from_view=search&track=ais">Freepik</a>
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
