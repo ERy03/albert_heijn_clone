@@ -1,3 +1,4 @@
+import 'package:albert_heijn_clone/components/products/categories/categories_card.dart';
 import 'package:flutter/material.dart';
 
 class CategoriesSection extends StatelessWidget {
@@ -10,19 +11,7 @@ class CategoriesSection extends StatelessWidget {
       sliver: SliverGrid.count(
         crossAxisCount: 2,
         children: List.generate(10, (index) {
-          return Container(
-            height: 20,
-            color: Colors.blue,
-            child: Center(
-              child: Text(
-                'Item $index',
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 20,
-                ),
-              ),
-            ),
-          );
+          return const CategoriesCard();
         }),
         // SizedBox(
         //   height: 258,
