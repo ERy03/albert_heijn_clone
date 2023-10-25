@@ -1,5 +1,6 @@
 import 'package:albert_heijn_clone/models/ad_model.dart';
 import 'package:albert_heijn_clone/models/bonus_selection_model.dart';
+import 'package:albert_heijn_clone/models/categories_model.dart';
 import 'package:albert_heijn_clone/models/free_delivery_model.dart';
 import 'package:albert_heijn_clone/models/products_types.dart';
 import 'package:albert_heijn_clone/models/this_week_model.dart';
@@ -95,4 +96,69 @@ List<ProductsTypesModel> productsTypesData = [
     image: 'assets/images/productsTypes-3.png',
     icon: 'assets/images/icon_baking.png',
   ),
+];
+
+List<CategoriesModel> categoriesData = [
+  CategoriesModel(
+      imagePath: 'assets/images/productsTypes-1.png',
+      category: Categories.potatoVegetableFruit),
+  CategoriesModel(
+      imagePath: 'assets/images/productsTypes-1.png',
+      category: Categories.saladsPizzaMeals),
+  CategoriesModel(
+      imagePath: 'assets/images/productsTypes-1.png',
+      category: Categories.meatChickenFishVegetarian),
+  CategoriesModel(
+      imagePath: 'assets/images/productsTypes-1.png',
+      category: Categories.cheeseColdCutsTapas),
+  CategoriesModel(
+      imagePath: 'assets/images/productsTypes-1.png',
+      category: Categories.dairyPlantBasedAndEggs),
+  CategoriesModel(
+      imagePath: 'assets/images/productsTypes-1.png',
+      category: Categories.bakeryAndPastry),
+  CategoriesModel(
+      imagePath: 'assets/images/productsTypes-1.png',
+      category: Categories.cerealAndSpreads),
+  CategoriesModel(
+      imagePath: 'assets/images/productsTypes-1.png',
+      category: Categories.candyCookiesChipsAndChocolate),
+  CategoriesModel(
+      imagePath: 'assets/images/productsTypes-1.png',
+      category: Categories.snacks),
+  CategoriesModel(
+      imagePath: 'assets/images/productsTypes-1.png',
+      category: Categories.softDrinksJuicesCoffeeTea),
+  CategoriesModel(
+      imagePath: 'assets/images/productsTypes-1.png',
+      category: Categories.wineAndBubbles),
+  CategoriesModel(
+      imagePath: 'assets/images/productsTypes-1.png',
+      category: Categories.beerAndAperitifs),
+  CategoriesModel(
+      imagePath: 'assets/images/productsTypes-1.png',
+      category: Categories.pastaRiceAndWorldCuisine),
+  CategoriesModel(
+      imagePath: 'assets/images/productsTypes-1.png',
+      category: Categories.soupsSaucesSpicesOil),
+  CategoriesModel(
+      imagePath: 'assets/images/productsTypes-1.png',
+      category: Categories.sportsAndDietFood),
+  CategoriesModel(
+      imagePath: 'assets/images/productsTypes-1.png',
+      category: Categories.freezer),
+  CategoriesModel(
+      imagePath: 'assets/images/productsTypes-1.png',
+      category: Categories.drugstore),
+  CategoriesModel(
+      imagePath: 'assets/images/productsTypes-1.png',
+      category: Categories.babyAndChild),
+  CategoriesModel(
+      imagePath: 'assets/images/productsTypes-1.png',
+      category: Categories.households),
+  CategoriesModel(
+      imagePath: 'assets/images/productsTypes-1.png', category: Categories.pet),
+  CategoriesModel(
+      imagePath: 'assets/images/productsTypes-1.png',
+      category: Categories.cookingDiningLeisureTime),
 ];
