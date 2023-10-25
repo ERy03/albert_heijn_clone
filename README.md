@@ -29,6 +29,7 @@ Image by <a href="https://www.freepik.com/free-photo/tasty-spaghetti-wrapped-aro
 <div> Icons made by <a href="" title="Nadiinko"> Nadiinko </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
 <a href="https://www.freepik.com/free-photo/closeup-croissant-bakery-roll-food_1044727.htm#page=3&query=baking%20png&position=32&from_view=search&track=ais">Image by mrsiraphol</a> on Freepik
 Image by <a href="https://www.freepik.com/free-photo/top-view-delicious-meals-arrangement_20385204.htm#page=8&query=world%20dining%20png&position=33&from_view=search&track=ais">Freepik</a>
+<div> Icons made by <a href="" title="Arkinasi"> Arkinasi </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
 
 ## Getting Started
 
