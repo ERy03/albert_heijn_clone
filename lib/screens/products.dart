@@ -28,7 +28,7 @@ class ProductsScreen extends StatelessWidget {
                 //  Type of recipes section
                 const ProductsTypesSection(),
                 const SizedBox(
-                  height: 25,
+                  height: 20,
                 ),
                 Padding(
                   padding: const EdgeInsets.only(left: 16.0),
@@ -43,7 +43,7 @@ class ProductsScreen extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(
-                  height: 20,
+                  height: 10,
                 ),
               ]),
             ),
