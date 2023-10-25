@@ -1,49 +1,60 @@
+import 'package:albert_heijn_clone/constant/colors.dart';
+import 'package:albert_heijn_clone/constant/text_style.dart';
+import 'package:albert_heijn_clone/models/categories_model.dart';
 import 'package:flutter/material.dart';
 
-enum Categories {
-  previous('Bought previously'),
-  potatoVegetableFruit('Potato, vegetable, fruit'),
-  saladsPizzaMeals('Salads, pizza, meals'),
-  meatChickenFishVegetarian('Meat, chicken, fish, vegetarian'),
-  cheeseColdCutsTapas('Cheese, cold cuts, tapas'),
-  dairyPlantBasedAndEggs('Dairy, plant-based and eggs'),
-  bakeryAndPastry('Bakery and pastry'),
-  cerealAndSpreads('Cereal and spreads'),
-  candyCookiesChipsAndChocolate('Candy, cookies, chips and chocolate'),
-  snacks('Snacks'),
-  softDrinksJuicesCoffeeTea('Soft drinks, juices, coffee, tea'),
-  wineAndBubbles('Wine and bubbles'),
-  beerAndAperitifs('Beer and aperitifs'),
-  pastaRiceAndWorldCuisine('Pasta, rice and world cuisine'),
-  soupsSaucesSpicesOil('Soups, sauces, spices, oil'),
-  sportsAndDietFood('Sports and diet food'),
-  freezer('Freezer'),
-  drugstore('Drugstore'),
-  babyAndChild('Baby and child'),
-  households('Households'),
-  pet('Pet'),
-  cookingDiningLeisureTime('Cooking, dining, leisure time');
-
-  final String category;
-  const Categories(this.category);
-}
-
 class CategoriesCard extends StatelessWidget {
-  const CategoriesCard({super.key});
+  const CategoriesCard({
+    super.key,
+    required this.categories,
+    this.height = 105,
+  });
+
+  final CategoriesModel categories;
+  final double height;
 
   @override
   Widget build(BuildContext context) {
-    return Card(
-      color: Colors.red,
-      child: Column(
-        children: [
-          Image.asset(
-            height: 120,
-            'assets/images/freeDelivery-2.png',
-            fit: BoxFit.cover,
+    return GestureDetector(
+      onTap: () {
+        // TODO: Navigate to the selected category
+      },
+      child: Card(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(3),
+        ),
+        color: Colors.white,
+        surfaceTintColor: Colors.white,
+        elevation: 1.3,
+        child: Padding(
+          padding: const EdgeInsets.all(5.0),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              if (height < 105)
+                const SizedBox(
+                  height: 5,
+                ),
+              Image.asset(
+                height: height,
+                categories.imagePath,
+              ),
+              if (height < 105)
+                const SizedBox(
+                  height: 5,
+                ),
+              Text(
+                categories.category.name,
+                textAlign: TextAlign.center,
+                style: ahCarroisGothic.copyWith(
+                  fontSize: 16,
+                  letterSpacing: -0.2,
+                  color: ahDarkBlue,
+                ),
+              ),
+            ],
           ),
-          Text('test, afdsas, adsfadsf, asdf')
-        ],
+        ),
       ),
     );
   }
