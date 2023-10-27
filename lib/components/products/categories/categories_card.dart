@@ -35,9 +35,12 @@ class CategoriesCard extends StatelessWidget {
                 const SizedBox(
                   height: 5,
                 ),
-              Image.asset(
-                height: height,
-                categories.imagePath,
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                child: Image.asset(
+                  height: height,
+                  categories.imagePath,
+                ),
               ),
               if (height < 105)
                 const SizedBox(
