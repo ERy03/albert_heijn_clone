@@ -103,29 +103,28 @@ List<CategoriesModel> categoriesData = [
       imagePath: 'assets/images/productsTypes-1.png',
       category: Categories.potatoVegetableFruit),
   CategoriesModel(
-      imagePath: 'assets/images/productsTypes-1.png',
+      imagePath: 'assets/images/category-1.png',
       category: Categories.saladsPizzaMeals),
   CategoriesModel(
-      imagePath: 'assets/images/productsTypes-1.png',
+      imagePath: 'assets/images/category-2.png',
       category: Categories.meatChickenFishVegetarian),
   CategoriesModel(
-      imagePath: 'assets/images/productsTypes-1.png',
+      imagePath: 'assets/images/category-3.png',
       category: Categories.cheeseColdCutsTapas),
   CategoriesModel(
-      imagePath: 'assets/images/productsTypes-1.png',
+      imagePath: 'assets/images/category-4.png',
       category: Categories.dairyPlantBasedAndEggs),
   CategoriesModel(
-      imagePath: 'assets/images/productsTypes-1.png',
+      imagePath: 'assets/images/productsTypes-3.png',
       category: Categories.bakeryAndPastry),
   CategoriesModel(
-      imagePath: 'assets/images/productsTypes-1.png',
+      imagePath: 'assets/images/category-5.png',
       category: Categories.cerealAndSpreads),
   CategoriesModel(
-      imagePath: 'assets/images/productsTypes-1.png',
+      imagePath: 'assets/images/homeThisWeek-3.png',
       category: Categories.candyCookiesChipsAndChocolate),
   CategoriesModel(
-      imagePath: 'assets/images/productsTypes-1.png',
-      category: Categories.snacks),
+      imagePath: 'assets/images/category-6.png', category: Categories.snacks),
   CategoriesModel(
       imagePath: 'assets/images/productsTypes-1.png',
       category: Categories.softDrinksJuicesCoffeeTea),
