@@ -13,32 +13,34 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: const HomeAppBar(),
-      body: SingleChildScrollView(
-          padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              HomeSearchBarButton(
-                onPressed: () {},
-              ),
-              const SizedBox(
-                height: 25,
-              ),
-              const HomeThisWeekSection(),
-              const SizedBox(
-                height: 25,
-              ),
-              const HomeAd(),
-              const SizedBox(
-                height: 28,
-              ),
-              const HomeBonusBrochureSection(),
-              const SizedBox(
-                height: 25,
-              ),
-              const HomeFreeDeliverySection(),
-            ],
-          )),
+      body: Scrollbar(
+        child: SingleChildScrollView(
+            padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                HomeSearchBarButton(
+                  onPressed: () {},
+                ),
+                const SizedBox(
+                  height: 25,
+                ),
+                const HomeThisWeekSection(),
+                const SizedBox(
+                  height: 25,
+                ),
+                const HomeAd(),
+                const SizedBox(
+                  height: 28,
+                ),
+                const HomeBonusBrochureSection(),
+                const SizedBox(
+                  height: 25,
+                ),
+                const HomeFreeDeliverySection(),
+              ],
+            )),
+      ),
     );
   }
 }
