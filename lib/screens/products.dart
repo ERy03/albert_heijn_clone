@@ -16,7 +16,7 @@ class ProductsScreen extends StatelessWidget {
       body: CustomScrollView(
         slivers: [
           SliverPadding(
-            padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+            padding: const EdgeInsets.only(top: 8.0),
             sliver: SliverList(
               delegate: SliverChildListDelegate([
                 HomeSearchBarButton(
@@ -43,7 +43,7 @@ class ProductsScreen extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(
-                  height: 10,
+                  height: 20,
                 ),
               ]),
             ),

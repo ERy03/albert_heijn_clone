@@ -9,7 +9,7 @@ class CategoriesSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SliverPadding(
-      padding: const EdgeInsets.symmetric(horizontal: 16.0),
+      padding: const EdgeInsets.only(left: 16.0, right: 16, bottom: 8),
       sliver: SliverGrid.count(crossAxisCount: 2, children: [
         CategoriesCard(
           categories: CategoriesModel(
