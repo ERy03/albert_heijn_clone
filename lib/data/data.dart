@@ -98,6 +98,7 @@ List<ProductsTypesModel> productsTypesData = [
   ),
 ];
 
+// TODO: category images
 List<CategoriesModel> categoriesData = [
   CategoriesModel(
       imagePath: 'assets/images/productsTypes-1.png',

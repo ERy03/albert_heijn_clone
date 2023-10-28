@@ -25,7 +25,7 @@ class ProductsScreen extends StatelessWidget {
                 const SizedBox(
                   height: 30,
                 ),
-                //  Type of recipes section
+                //  Horizontal list of product types
                 const ProductsTypesSection(),
                 const SizedBox(
                   height: 20,
@@ -48,58 +48,8 @@ class ProductsScreen extends StatelessWidget {
               ]),
             ),
           ),
+          // Grid of categories
           const CategoriesSection(),
-
-          SliverToBoxAdapter(
-            child: Container(
-              height: 50.0,
-              width: double.infinity,
-              color: Colors.yellow,
-            ),
-          ),
-          // SliverToBoxAdapter(
-          //   child: Padding(
-          //       padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
-          //       child: Column(
-          //         crossAxisAlignment: CrossAxisAlignment.start,
-          //         children: [
-          //           HomeSearchBarButton(
-          //             onPressed: () {},
-          //           ),
-          //           const SizedBox(
-          //             height: 30,
-          //           ),
-          //           // Type of recipes section
-          //           const ProductsTypesSection(),
-          //           const SizedBox(
-          //             height: 28,
-          //           ),
-          //           // Categories section
-          //           const CategoriesSection(),
-          //         ],
-          //       )),
-          // ),
-
-          // Padding(
-          //     padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
-          //     child: Column(
-          //       crossAxisAlignment: CrossAxisAlignment.start,
-          //       children: [
-          //         HomeSearchBarButton(
-          //           onPressed: () {},
-          //         ),
-          //         const SizedBox(
-          //           height: 30,
-          //         ),
-          //         // Type of recipes section
-          //         const ProductsTypesSection(),
-          //         const SizedBox(
-          //           height: 28,
-          //         ),
-          //         // Categories section
-          //         const CategoriesSection(),
-          //       ],
-          //     )),
         ],
       ),
     );
