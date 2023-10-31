@@ -1,3 +1,4 @@
+import 'package:albert_heijn_clone/screens/bonus.dart';
 import 'package:albert_heijn_clone/screens/home.dart';
 import 'package:albert_heijn_clone/screens/products.dart';
 import 'package:albert_heijn_clone/screens/scaffold_with_nested_navigation.dart';
@@ -49,8 +50,7 @@ final goRouter = GoRouter(
             GoRoute(
               path: '/bonus',
               builder: (context, state) {
-                //TODO builder
-                return const HomeScreen();
+                return const BonusScreen();
               },
               routes: const [
                 //   GoRoute(
@@ -87,7 +87,6 @@ final goRouter = GoRouter(
             GoRoute(
               path: '/products',
               builder: (context, state) {
-                //TODO builder
                 return const ProductsScreen();
               },
               routes: const [
